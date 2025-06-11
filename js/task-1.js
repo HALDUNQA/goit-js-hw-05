@@ -1,5 +1,5 @@
 const getUserNames = (users) => {
-  return users.map((user) => user.name);
+  return users.map((i) => i.name);
 };
 
 console.log(

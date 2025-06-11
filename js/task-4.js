@@ -1,7 +1,6 @@
 const getTotalBalanceByGender = (users, gender) => {
-  return users.reduce((total, user) => {
-    return user.gender === gender ? total + user.balance : total;
-  }, 0);
+  return users.reduce((total, i) => {
+    return i.gender === gender ? total + i.balance : total;}, 0);
 };
 
 const allUsers1 = [
